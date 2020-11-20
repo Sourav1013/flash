@@ -9,3 +9,4 @@ public interface DoctorAvailabilityService {
 	 public Doctor updateDoctorAvailabilityById(long doctorId, Doctor doctor) throws ResourceNotFoundException;
 
 }
+ 

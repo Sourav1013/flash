@@ -4,8 +4,11 @@ import java.util.List;
 
 import com.cg.ha.hospital.entities.Doctor;
 import com.cg.ha.hospital.exception.ResourceNotFoundException;
-
-
+/** Author
+ * 
+ * @author Sourav
+ *
+ */
 public interface DoctorService {
 	 
 	    public List<Doctor> getAllDoctors();
@@ -15,3 +18,4 @@ public interface DoctorService {
 	    public Doctor updateDoctorById(long doctorId, Doctor doctor) throws ResourceNotFoundException;
 	    
 }
+ 

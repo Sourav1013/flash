@@ -23,7 +23,5 @@ public class DoctorAvailabilityServiceImpl implements DoctorAvailabilityService 
 			 doctor1.setDoctorSpecialization(doctor1.getDoctorSpecialization());
 			final Doctor updatedDoctor = doctorAvailabilityRepository.save(doctor);
 			return updatedDoctor; 
-	    }
-
-
+	    } 
 }

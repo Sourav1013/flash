@@ -22,7 +22,7 @@ public class DoctorAvailabilityRepositoryTest {
     private TestEntityManager testEntityManager;
 	
 	 @Test
-	    public void testUpdateDoctor(){
+	    public void testUpdateDoctor(){ 
 
 		 	Doctor doctor = new Doctor();
 	        doctor.setDoctorName("Berlin");

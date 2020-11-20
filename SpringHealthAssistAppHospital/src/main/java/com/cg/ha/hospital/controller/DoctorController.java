@@ -16,7 +16,11 @@ import org.springframework.web.bind.annotation.RestController;
 import com.cg.ha.hospital.entities.Doctor;
 import com.cg.ha.hospital.exception.ResourceNotFoundException;
 import com.cg.ha.hospital.service.DoctorService;
-
+/** Author
+ * 
+ * @author Sourav
+ *
+ */
 @RestController
 @RequestMapping("/api/v2")
 public class DoctorController {
@@ -25,12 +29,12 @@ public class DoctorController {
 	private DoctorService doctorService;
 	
 	@GetMapping("/getAllDoctors")
-	public List<Doctor> getAllDoctorsFromDoctor() {
+	public List<Doctor> getAllDoctors() {
 		return doctorService.getAllDoctors();
 	}
 	
 	@PostMapping("/saveDoctor")
-	public Doctor saveDoctor( @RequestBody Doctor doctor) {
+	public Doctor saveDoctor( @RequestBody Doctor doctor) { 
 		return doctorService.saveDoctor(doctor);
 	} 
 	

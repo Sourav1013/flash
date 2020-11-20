@@ -10,7 +10,11 @@ import org.springframework.stereotype.Service;
 import com.cg.ha.hospital.entities.Doctor;
 import com.cg.ha.hospital.exception.ResourceNotFoundException;
 import com.cg.ha.hospital.repositories.DoctorRepository;
-
+/** Author
+ * 
+ * @author Sourav
+ *
+ */
 @Service
 @Transactional
 public class DoctorServiceImpl implements DoctorService {
@@ -20,7 +24,7 @@ public class DoctorServiceImpl implements DoctorService {
 	 
 	 @Override
 	    public List<Doctor> getAllDoctors() {
-	        return doctorRepository.findAll();
+	        return doctorRepository.findAll(); 
 	    }
 	 
 	 @Override

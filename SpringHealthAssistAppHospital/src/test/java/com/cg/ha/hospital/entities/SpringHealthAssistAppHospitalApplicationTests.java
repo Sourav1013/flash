@@ -9,5 +9,5 @@ class SpringHealthAssistAppHospitalApplicationTests {
 	@Test
 	void contextLoads() {
 	}
-
+ 
 }

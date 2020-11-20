@@ -21,7 +21,7 @@ public class DoctorAvailability implements Serializable{
 	
 	public DoctorAvailability()
 	{
-		super();
+		super(); 
 	}
 
 	public DoctorAvailability(String doctorAvailable) 

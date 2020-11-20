@@ -8,6 +8,11 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
+/** Author
+ * 
+ * @author Sourav
+ *
+ */
 @Entity
 @Table(name="doctor")
 public class Doctor implements Serializable{
@@ -31,7 +36,7 @@ public class Doctor implements Serializable{
 			String doctorContact, String doctorAddress) {
 		
 		super();
-		this.doctorName = doctorName;
+		this.doctorName = doctorName; 
 		this.doctorAge = doctorAge;
 		this.doctorGender = doctorGender;
 		this.doctorSpecialization = doctorSpecialization;

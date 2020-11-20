@@ -13,7 +13,7 @@ import com.cg.ha.hospital.exception.ResourceNotFoundException;
 import com.cg.ha.hospital.service.DoctorAvailabilityService;
 
 @RestController
-@RequestMapping("/api/v2")
+@RequestMapping("/api/v1") 
 public class DoctorAvailabilityController {
 	
 	@Autowired
